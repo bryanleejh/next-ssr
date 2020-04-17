@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1784,9 +1784,9 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1797,13 +1797,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/bryanlee/Desktop/udemy/junior-to-senior/next-ssr/pages/index.js";
+var _jsxFileName = "/Users/bryanlee/Desktop/udemy/junior-to-senior/next-ssr/pages/about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Index = () => {
+const About = () => {
   return __jsx("div", {
+    style: {
+      fontSize: '20px',
+      color: 'blue'
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1817,8 +1821,8 @@ const Index = () => {
       lineNumber: 6,
       columnNumber: 7
     }
-  }, "SSR Magician"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+  }, "About"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1832,21 +1836,28 @@ const Index = () => {
       lineNumber: 8,
       columnNumber: 9
     }
-  }, "About")));
+  }, "Back")), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }
+  }, "I was a magician once"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/bryanlee/Desktop/udemy/junior-to-senior/next-ssr/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/bryanlee/Desktop/udemy/junior-to-senior/next-ssr/pages/about.js */"./pages/about.js");
 
 
 /***/ }),
@@ -1907,4 +1918,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map
