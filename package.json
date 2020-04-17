@@ -1,0 +1,25 @@
+{
+  "name": "next-ssr",
+  "version": "1.0.0",
+  "description": "Repo for learning next.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanleejh/next-ssr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanleejh/next-ssr/issues"
+  },
+  "homepage": "https://github.com/bryanleejh/next-ssr#readme",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
